@@ -2,10 +2,10 @@ import pygame
 from copy import deepcopy
 from random import choice, randrange
 
-W, H = 20, 17
-TILE = 45
+W, H = 13, 20
+TILE = 35
 GAME_RES = W * TILE, H * TILE
-RES = 750, 940
+RES = 950, 950
 FPS = 60
 
 pygame.init()
